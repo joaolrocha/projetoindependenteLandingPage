@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Overpass:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: #a87874;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 50px;
+  width: 250px;
+}
+
+.barra-navegacao-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.barra-navegacao-menu-item {
+  font-family: "Overpass", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-primario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-primario-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-primario-escrito-titulo {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff2e7;
+}
+
+.conteudo-primario-escrito-subtitulo {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff2e7;
+}
+
+.imagem-arquiteta {
+  height: 400px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  font-family: "Dancing Script", cursive;
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 20px;
+  font-weight: 300px;
+  font-size: 40px;
+  color: #fff2e7;
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff2e7;
+  margin-top: 18px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.rodape-imagem {
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
